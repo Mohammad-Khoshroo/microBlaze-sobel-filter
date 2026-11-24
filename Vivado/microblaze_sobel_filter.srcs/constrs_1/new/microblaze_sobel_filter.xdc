@@ -8,12 +8,12 @@ set_property IOSTANDARD LVCMOS33 [get_ports reset_rtl_0]
 ## -----------------------------------------------------------------------------
 ## 3. UART Interface (AXI UARTLite @ 115200 bps)
 ##    Connected to external USB-UART module via 40-pin header:
-##    - uart_rtl_0_rxd (FPGA RX <- USB-UART Module TX): Pin P14
-##    - uart_rtl_0_txd (FPGA TX -> USB-UART Module RX): Pin P15
+##    - uart_rtl_0_rxd (FPGA RX <- USB-UART Module TX): Pin H16
+##    - uart_rtl_0_txd (FPGA TX -> USB-UART Module RX): Pin H17
 ## -----------------------------------------------------------------------------
 
-set_property PACKAGE_PIN P14 [get_ports uart_rtl_0_rxd]
+set_property PACKAGE_PIN H16 [get_ports uart_rtl_0_rxd]
 set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_0_rxd]
 
-set_property PACKAGE_PIN P15 [get_ports uart_rtl_0_txd]
+set_property PACKAGE_PIN H17 [get_ports uart_rtl_0_txd]
 set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_0_txd]
