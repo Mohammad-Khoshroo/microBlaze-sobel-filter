@@ -2,7 +2,9 @@
 # Xilinx Vivado & Vitis .gitignore
 # ==============================================================================
 
+# ------------------------------------------------------------------------------
 # Vivado temporary & generated project directories
+# ------------------------------------------------------------------------------
 *.cache/
 *.hw/
 *.ip_user_files/
@@ -26,18 +28,31 @@ hs_err_pid*.log
 vivado_*.str
 vivado_*.zip
 
-# Vitis & SDK temporary and build directories
+# ------------------------------------------------------------------------------
+# Vitis / Eclipse workspace & build artifacts
+# ------------------------------------------------------------------------------
 .metadata/
-.analytics/
-*.o
-*.elf
-*.hex
-*.out
-*/Debug/
-*/Release/
-*/_ide/
+.analytics
+RemoteSystemsTempFiles/
+IDE.log
+**/_ide/
+**/.log/
+**/logs/
+**/export/
 
+# Object, dependency, and log files generated during C/C++ compilation
+*.o
+*.d
+*.size
+*.map
+*.build.ui.log
+
+# Allow ELF executable binaries needed by Vivado bitstream association and Vitis
+!*.elf
+
+# ------------------------------------------------------------------------------
 # Python cache & virtual environments
+# ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -47,7 +62,9 @@ env/
 venv/
 .venv/
 
+# ------------------------------------------------------------------------------
 # OS and Editor artifacts
+# ------------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
 desktop.ini
