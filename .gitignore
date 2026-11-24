@@ -1,0 +1,57 @@
+# ==============================================================================
+# Xilinx Vivado & Vitis .gitignore
+# ==============================================================================
+
+# Vivado temporary & generated project directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+.Xil/
+
+# Vivado journals, logs, dumps, and reports
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.wdb
+*.wcfg
+*.vcd
+webtalk*.log
+webtalk*.jou
+hs_err_pid*.log
+vivado_*.str
+vivado_*.zip
+
+# Vitis & SDK temporary and build directories
+.metadata/
+.analytics/
+*.o
+*.elf
+*.hex
+*.out
+*/Debug/
+*/Release/
+*/_ide/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
