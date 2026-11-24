@@ -1007,6 +1007,34 @@
           }
         }
       }
+    },
+    "elf_association": {
+      "file": {
+        "name": "D:/minoo/semester7/FPGA/lab/lab2/vitis/microblaze_sobel_filter_app/Release/microblaze_sobel_filter_app.elf",
+        "type": "ELF",
+        "checksum": "2138178659",
+        "IsVisible": "1",
+        "ScopedToRef": "microblaze_sobel_filter",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
+      },
+      "file": {
+        "name": "D:/minoo/semester7/FPGA/lab/lab2/vitis/microblaze_sobel_filter_app/Release/microblaze_sobel_filter_app.elf",
+        "type": "ELF",
+        "checksum": "2138178659",
+        "IsVisible": "1",
+        "ScopedToRef": "microblaze_sobel_filter",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "simulation"
+        ]
+      }
     }
   }
 }

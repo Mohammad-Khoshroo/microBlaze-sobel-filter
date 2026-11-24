@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="D:/UT.CE/FPGA/LAB/LAB2/Vivado/microblaze_sobel_filter.xpr">
+<Project Version="7" Minor="61" Path="D:/minoo/semester7/FPGA/lab/lab2/Vivado/microblaze_sobel_filter.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="8581ee2874f24b1697c55b7587fe1a56"/>
@@ -94,48 +94,57 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_microblaze_0_0/microblaze_sobel_filter_microblaze_0_0.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_dlmb_v10_1/microblaze_sobel_filter_dlmb_v10_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_dlmb_v10_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_ilmb_v10_1/microblaze_sobel_filter_ilmb_v10_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_ilmb_v10_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_dlmb_bram_if_cntlr_1/microblaze_sobel_filter_dlmb_bram_if_cntlr_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_dlmb_bram_if_cntlr_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_ilmb_bram_if_cntlr_1/microblaze_sobel_filter_ilmb_bram_if_cntlr_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_ilmb_bram_if_cntlr_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_clk_wiz_1_1/microblaze_sobel_filter_clk_wiz_1_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_clk_wiz_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_mdm_1_1/microblaze_sobel_filter_mdm_1_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_mdm_1_1"/>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_axi_uartlite_0_1/microblaze_sobel_filter_axi_uartlite_0_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_axi_uartlite_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_lmb_bram_1/microblaze_sobel_filter_lmb_bram_1.xci">
           <Proxy FileSetName="microblaze_sobel_filter_lmb_bram_1"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_xbar_0/microblaze_sobel_filter_xbar_0.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_mdm_1_1/microblaze_sobel_filter_mdm_1_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_mdm_1_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_clk_wiz_1_1/microblaze_sobel_filter_clk_wiz_1_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_clk_wiz_1_1"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_rst_clk_wiz_1_100M_1/microblaze_sobel_filter_rst_clk_wiz_1_100M_1.xci">
           <Proxy FileSetName="microblaze_sobel_filter_rst_clk_wiz_1_100M_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_axi_uartlite_0_1/microblaze_sobel_filter_axi_uartlite_0_1.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_axi_uartlite_0_1"/>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_microblaze_0_0/microblaze_sobel_filter_microblaze_0_0.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_microblaze_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_axi_timer_0_1/microblaze_sobel_filter_axi_timer_0_1.xci">
           <Proxy FileSetName="microblaze_sobel_filter_axi_timer_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_xbar_0/microblaze_sobel_filter_xbar_0.xci">
-          <Proxy FileSetName="microblaze_sobel_filter_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_ilmb_v10_1/microblaze_sobel_filter_ilmb_v10_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_ilmb_v10_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_dlmb_v10_1/microblaze_sobel_filter_dlmb_v10_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_dlmb_v10_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_ilmb_bram_if_cntlr_1/microblaze_sobel_filter_ilmb_bram_if_cntlr_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_ilmb_bram_if_cntlr_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="microblaze_sobel_filter.bd" FileRelPathName="ip/microblaze_sobel_filter_dlmb_bram_if_cntlr_1/microblaze_sobel_filter_dlmb_bram_if_cntlr_1.xci">
+          <Proxy FileSetName="microblaze_sobel_filter_dlmb_bram_if_cntlr_1"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/microblaze_sobel_filter/hdl/microblaze_sobel_filter_wrapper.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../vitis/microblaze_sobel_filter_app/Release/microblaze_sobel_filter_app.elf">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="ScopedToRef" Val="microblaze_sobel_filter"/>
+          <Attr Name="ScopedToCell" Val="microblaze_0"/>
+          <Attr Name="IsVisible" Val="1"/>
         </FileInfo>
       </File>
       <Config>
@@ -159,10 +168,16 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/../vitis/microblaze_sobel_filter_app/Release/microblaze_sobel_filter_app.elf">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="ScopedToRef" Val="microblaze_sobel_filter"/>
+          <Attr Name="ScopedToCell" Val="microblaze_0"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="microblaze_sobel_filter_wrapper"/>
-        <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
@@ -296,9 +311,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_microblaze_0_0_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_microblaze_0_0" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_microblaze_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_microblaze_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_microblaze_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_microblaze_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -308,9 +321,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_dlmb_v10_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_dlmb_v10_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_dlmb_v10_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_dlmb_v10_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_v10_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_v10_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -320,9 +331,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_ilmb_v10_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_ilmb_v10_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_ilmb_v10_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_ilmb_v10_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_v10_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_v10_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -332,9 +341,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_dlmb_bram_if_cntlr_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_dlmb_bram_if_cntlr_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_dlmb_bram_if_cntlr_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_dlmb_bram_if_cntlr_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_bram_if_cntlr_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_bram_if_cntlr_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -344,9 +351,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_ilmb_bram_if_cntlr_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_ilmb_bram_if_cntlr_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_ilmb_bram_if_cntlr_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_ilmb_bram_if_cntlr_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_bram_if_cntlr_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_bram_if_cntlr_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -356,9 +361,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_clk_wiz_1_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_clk_wiz_1_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_clk_wiz_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_clk_wiz_1_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_clk_wiz_1_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_clk_wiz_1_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -368,9 +371,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_mdm_1_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_mdm_1_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_mdm_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_mdm_1_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_mdm_1_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_mdm_1_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -380,9 +381,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_lmb_bram_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_lmb_bram_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_lmb_bram_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_lmb_bram_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_lmb_bram_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_lmb_bram_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -392,9 +391,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_rst_clk_wiz_1_100M_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_rst_clk_wiz_1_100M_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_rst_clk_wiz_1_100M_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_rst_clk_wiz_1_100M_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_rst_clk_wiz_1_100M_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_rst_clk_wiz_1_100M_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -404,9 +401,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_axi_uartlite_0_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_axi_uartlite_0_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_axi_uartlite_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_axi_uartlite_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_uartlite_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_uartlite_0_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -416,9 +411,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_axi_timer_0_1_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_axi_timer_0_1" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_axi_timer_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_axi_timer_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_timer_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_timer_0_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -428,9 +421,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="microblaze_sobel_filter_xbar_0" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/microblaze_sobel_filter_xbar_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_xbar_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_xbar_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -458,9 +449,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_microblaze_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_microblaze_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_microblaze_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_microblaze_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_microblaze_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -477,9 +466,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_dlmb_v10_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_dlmb_v10_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_dlmb_v10_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_v10_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_v10_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -496,9 +483,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_ilmb_v10_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_ilmb_v10_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_ilmb_v10_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_v10_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_v10_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -515,9 +500,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_dlmb_bram_if_cntlr_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_dlmb_bram_if_cntlr_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_dlmb_bram_if_cntlr_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_bram_if_cntlr_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_dlmb_bram_if_cntlr_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -534,9 +517,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_ilmb_bram_if_cntlr_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_ilmb_bram_if_cntlr_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_ilmb_bram_if_cntlr_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_bram_if_cntlr_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_ilmb_bram_if_cntlr_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -553,9 +534,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_clk_wiz_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_clk_wiz_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_clk_wiz_1_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_clk_wiz_1_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_clk_wiz_1_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -572,9 +551,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_mdm_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_mdm_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_mdm_1_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_mdm_1_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_mdm_1_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -591,9 +568,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_lmb_bram_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_lmb_bram_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_lmb_bram_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_lmb_bram_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_lmb_bram_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -610,9 +585,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_rst_clk_wiz_1_100M_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_rst_clk_wiz_1_100M_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_rst_clk_wiz_1_100M_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_rst_clk_wiz_1_100M_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_rst_clk_wiz_1_100M_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -629,9 +602,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_axi_uartlite_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_axi_uartlite_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_axi_uartlite_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_uartlite_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_uartlite_0_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -648,9 +619,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_axi_timer_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_axi_timer_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_axi_timer_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_timer_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_axi_timer_0_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -667,9 +636,7 @@
     </Run>
     <Run Id="microblaze_sobel_filter_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-2" ConstrsSet="microblaze_sobel_filter_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="microblaze_sobel_filter_xbar_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_xbar_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/microblaze_sobel_filter_xbar_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
