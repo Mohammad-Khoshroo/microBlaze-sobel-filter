@@ -1007,6 +1007,34 @@
           }
         }
       }
+    },
+    "elf_association": {
+      "file": {
+        "name": "D:/UT.CE/FPGA/LAB/LAB2/Vitis/app/Release/app.elf",
+        "type": "ELF",
+        "checksum": "478061601",
+        "IsVisible": "1",
+        "ScopedToRef": "microblaze_sobel_filter",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
+      },
+      "file": {
+        "name": "D:/UT.CE/FPGA/LAB/LAB2/Vitis/app/Release/app.elf",
+        "type": "ELF",
+        "checksum": "478061601",
+        "IsVisible": "1",
+        "ScopedToRef": "microblaze_sobel_filter",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "simulation"
+        ]
+      }
     }
   }
 }
